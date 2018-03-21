@@ -1,0 +1,37 @@
+/* CSS file */
+
+h1{text-align:center;
+      font-family:"COPPERPLATE GOTHIC";
+      color:black;
+font-style:bold;
+text-shadow:5px 2px red;
+      }/*styles given to the text enclosed with h1 tag.*/
+
+#hai{
+border-radius: 30px;
+border: 8px solid white;
+margin: auto;
+display:block;
+}/*id selector is used to give border and rounded corners to an image.*/
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 150px;
+    height: 200px;    
+}/*id selector is used for specifying round corners to elements.*/
+
+div {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: pink;
+    }/*to create a rectangular element.*/
+
+html { 
+  background: url(BG2.jpg) no-repeat center fixed; 
+  background-size: cover;
+}/*background styling*/
